@@ -24,4 +24,11 @@ function konver() {
     output.innerText = "Nilai Input: " + hasil;
   } else if (jarak1 == "kilometer" && jarak2 == "meter") {
     const hasil = input * 1000;
+  } else if (jarak1 == "centimeter" && jarak2 == "centimeter") {
+    const hasil = input;
+  } else if (jarak1 == "meter" && jarak2 == "meter") {
+    const hasil = input;
+  } else if (jarak1 == "kilometer" && jarak2 == "kilometer") {
+    const hasil = input;
+  }
 }
